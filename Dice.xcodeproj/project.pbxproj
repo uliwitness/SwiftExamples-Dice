@@ -10,6 +10,21 @@
 		889FB2C821C581AD0025D0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB2C721C581AD0025D0DD /* AppDelegate.swift */; };
 		889FB2CA21C581B00025D0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2C921C581B00025D0DD /* Assets.xcassets */; };
 		889FB2CD21C581B00025D0DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2CB21C581B00025D0DD /* MainMenu.xib */; };
+		889FB30221C585260025D0DD /* dice5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F321C585230025D0DD /* dice5.tiff */; };
+		889FB30321C585260025D0DD /* dice1@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F421C585240025D0DD /* dice1@2x.tiff */; };
+		889FB30421C585260025D0DD /* dice3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F521C585240025D0DD /* dice3.tiff */; };
+		889FB30521C585260025D0DD /* dice3@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F621C585240025D0DD /* dice3@2x.tiff */; };
+		889FB30621C585260025D0DD /* dice1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F721C585240025D0DD /* dice1.tiff */; };
+		889FB30721C585260025D0DD /* dice4@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F821C585240025D0DD /* dice4@2x.tiff */; };
+		889FB30821C585260025D0DD /* dice2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2F921C585240025D0DD /* dice2.tiff */; };
+		889FB30921C585260025D0DD /* dice6@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FA21C585250025D0DD /* dice6@2x.tiff */; };
+		889FB30A21C585260025D0DD /* dice2@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FB21C585250025D0DD /* dice2@2x.tiff */; };
+		889FB30B21C585260025D0DD /* dice4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FC21C585250025D0DD /* dice4.tiff */; };
+		889FB30C21C585260025D0DD /* dice6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FD21C585250025D0DD /* dice6.tiff */; };
+		889FB30D21C585260025D0DD /* juggler.gif in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FE21C585250025D0DD /* juggler.gif */; };
+		889FB30E21C585260025D0DD /* dice0@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB2FF21C585250025D0DD /* dice0@2x.tiff */; };
+		889FB30F21C585260025D0DD /* dice5@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB30021C585260025D0DD /* dice5@2x.tiff */; };
+		889FB31021C585260025D0DD /* dice0.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 889FB30121C585260025D0DD /* dice0.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,21 @@
 		889FB2CC21C581B00025D0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		889FB2CE21C581B00025D0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889FB2CF21C581B00025D0DD /* Dice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dice.entitlements; sourceTree = "<group>"; };
+		889FB2F321C585230025D0DD /* dice5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice5.tiff; sourceTree = "<group>"; };
+		889FB2F421C585240025D0DD /* dice1@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice1@2x.tiff"; sourceTree = "<group>"; };
+		889FB2F521C585240025D0DD /* dice3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice3.tiff; sourceTree = "<group>"; };
+		889FB2F621C585240025D0DD /* dice3@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice3@2x.tiff"; sourceTree = "<group>"; };
+		889FB2F721C585240025D0DD /* dice1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice1.tiff; sourceTree = "<group>"; };
+		889FB2F821C585240025D0DD /* dice4@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice4@2x.tiff"; sourceTree = "<group>"; };
+		889FB2F921C585240025D0DD /* dice2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice2.tiff; sourceTree = "<group>"; };
+		889FB2FA21C585250025D0DD /* dice6@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice6@2x.tiff"; sourceTree = "<group>"; };
+		889FB2FB21C585250025D0DD /* dice2@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice2@2x.tiff"; sourceTree = "<group>"; };
+		889FB2FC21C585250025D0DD /* dice4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice4.tiff; sourceTree = "<group>"; };
+		889FB2FD21C585250025D0DD /* dice6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice6.tiff; sourceTree = "<group>"; };
+		889FB2FE21C585250025D0DD /* juggler.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = juggler.gif; sourceTree = "<group>"; };
+		889FB2FF21C585250025D0DD /* dice0@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice0@2x.tiff"; sourceTree = "<group>"; };
+		889FB30021C585260025D0DD /* dice5@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dice5@2x.tiff"; sourceTree = "<group>"; };
+		889FB30121C585260025D0DD /* dice0.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dice0.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,21 @@
 				889FB2CB21C581B00025D0DD /* MainMenu.xib */,
 				889FB2CE21C581B00025D0DD /* Info.plist */,
 				889FB2CF21C581B00025D0DD /* Dice.entitlements */,
+				889FB30121C585260025D0DD /* dice0.tiff */,
+				889FB2FF21C585250025D0DD /* dice0@2x.tiff */,
+				889FB2F721C585240025D0DD /* dice1.tiff */,
+				889FB2F421C585240025D0DD /* dice1@2x.tiff */,
+				889FB2F921C585240025D0DD /* dice2.tiff */,
+				889FB2FB21C585250025D0DD /* dice2@2x.tiff */,
+				889FB2F521C585240025D0DD /* dice3.tiff */,
+				889FB2F621C585240025D0DD /* dice3@2x.tiff */,
+				889FB2FC21C585250025D0DD /* dice4.tiff */,
+				889FB2F821C585240025D0DD /* dice4@2x.tiff */,
+				889FB2F321C585230025D0DD /* dice5.tiff */,
+				889FB30021C585260025D0DD /* dice5@2x.tiff */,
+				889FB2FD21C585250025D0DD /* dice6.tiff */,
+				889FB2FA21C585250025D0DD /* dice6@2x.tiff */,
+				889FB2FE21C585250025D0DD /* juggler.gif */,
 			);
 			path = Dice;
 			sourceTree = "<group>";
@@ -118,8 +163,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889FB30521C585260025D0DD /* dice3@2x.tiff in Resources */,
+				889FB30A21C585260025D0DD /* dice2@2x.tiff in Resources */,
+				889FB30B21C585260025D0DD /* dice4.tiff in Resources */,
+				889FB30921C585260025D0DD /* dice6@2x.tiff in Resources */,
+				889FB31021C585260025D0DD /* dice0.tiff in Resources */,
+				889FB30C21C585260025D0DD /* dice6.tiff in Resources */,
+				889FB30321C585260025D0DD /* dice1@2x.tiff in Resources */,
+				889FB30E21C585260025D0DD /* dice0@2x.tiff in Resources */,
+				889FB30221C585260025D0DD /* dice5.tiff in Resources */,
+				889FB30F21C585260025D0DD /* dice5@2x.tiff in Resources */,
 				889FB2CA21C581B00025D0DD /* Assets.xcassets in Resources */,
+				889FB30621C585260025D0DD /* dice1.tiff in Resources */,
+				889FB30D21C585260025D0DD /* juggler.gif in Resources */,
+				889FB30421C585260025D0DD /* dice3.tiff in Resources */,
+				889FB30821C585260025D0DD /* dice2.tiff in Resources */,
 				889FB2CD21C581B00025D0DD /* MainMenu.xib in Resources */,
+				889FB30721C585260025D0DD /* dice4@2x.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
