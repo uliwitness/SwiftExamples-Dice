@@ -48,16 +48,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         diceImageView.image = NSImage(named: "dice0")
         sparklesImageView.isHidden = false
 
-        self.perform(#selector(actuallyRoll), with: nil, afterDelay: 3.0)
-    }
-    
-    @objc func actuallyRoll() {
-        sparklesImageView.isHidden = true
-        
-        let numberRolled = Int.random(in: 1...6)
-        let imageName = "dice\(numberRolled)"
-        let image = NSImage(named: imageName)
-        diceImageView.image = image
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + DispatchTimeInterval.seconds(2)) {
+            self.sparklesImageView.isHidden = true
+            
+            let numberRolled = Int.random(in: 1...6)
+            let imageName = "dice\(numberRolled)"
+            let image = NSImage(named: imageName)
+            self.diceImageView.image = image
+        }
     }
 }
 
