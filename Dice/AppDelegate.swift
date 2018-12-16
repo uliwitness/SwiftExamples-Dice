@@ -26,6 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @IBAction func diceClicked(_ sender: Any) {
+        // Maybe we should roll the dice here instead of letting users drag individual dice around?
         if let mouseDownEvent = NSApplication.shared.currentEvent {
             var startPosition = mouseDownEvent.locationInWindow
             var keepTracking = true
