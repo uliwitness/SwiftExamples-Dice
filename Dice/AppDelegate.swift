@@ -19,6 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         diceImageView.sendAction(on: [.leftMouseDown])
+		self.sparklesImageView.alphaValue = 0.0
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -46,15 +47,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBAction func rollDice(_ sender: Any) {
         diceImageView.image = NSImage(named: "dice0")
-        sparklesImageView.isHidden = false
+		CATransaction.begin()
+		CATransaction.setAnimationDuration(1.0)
+		sparklesImageView.isHidden = false
+        sparklesImageView.animator().alphaValue = 1.0
+		CATransaction.commit()
 
+		// Can shorten the following to deadline: .now() + 2 if you want:
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + DispatchTimeInterval.seconds(2)) {
-            self.sparklesImageView.isHidden = true
-            
+			CATransaction.begin()
+			CATransaction.setAnimationDuration(1.0)
+			self.sparklesImageView.animator().alphaValue = 0.0
+			CATransaction.setCompletionBlock {
+				self.sparklesImageView.isHidden = true
+			}
+			
             let numberRolled = Int.random(in: 1...6)
             let imageName = "dice\(numberRolled)"
             let image = NSImage(named: imageName)
-            self.diceImageView.image = image
+            self.diceImageView.animator().image = image
+			CATransaction.commit()
         }
     }
 }
